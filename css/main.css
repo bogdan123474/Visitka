@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
 }
 
 
@@ -66,12 +67,24 @@ body {
     color:#606060;
 }
 
-.main {
-    background-color: #F1F1F1;
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
 }
 
+.header-content {
+    max-width: 700px;
+    margin-top: 124px;
+}
 
-.main-container {
+.header-heading {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 44px;
+}
+
+.header-content p {
+    line-height: 2;
     position: relative;
-    background-color: #F1F1F1;
 }
